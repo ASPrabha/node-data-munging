@@ -1,0 +1,41 @@
+.chart div {
+  font: 10px sans-serif;
+  background-color: blue;
+  text-align: right;
+  padding: 3px;
+  margin: 1px;
+  color: white;
+}
+
+.dashboard {
+  /*width: 600px;*/
+  margin: auto;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+p {
+  text-align: center;
+}
+
+.bar{
+    fill: #444;
+    color:white;
+    padding: 3px;
+  	margin: 1px;
+  }
+
+/*  .bar:hover{
+    fill: brown;
+  }*/
+
+	.axis {
+	  font: 10px sans-serif;
+	}
+
+	.axis path,
+	.axis line {
+	  fill: none;
+	  stroke: #000;
+	  shape-rendering: crispEdges;
+	}
