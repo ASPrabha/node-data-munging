@@ -2,14 +2,23 @@
   "name": "nodejs-datamunging",
   "version": "0.0.1",
   "description": "Processing CSV file to get JSON data  which will be mapped on HTML as graphs",
-  "main": "index.js",
+  "main": ".eslintrc.js",
   "scripts": {
+    "generate": "node js/gdp_country.js",
+    "start": "http-server",
+    "lint": "./node_modules/.bin/eslint js/gdp_country.js",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ASPrabha/node-data-munging.git"
   },
   "author": "Arokia Selva Prabha <aprabha6@sapient.com>",
   "license": "MIT",
   "dependencies": {
-    "eslint": "^4.18.1"
+    "eslint": "^4.18.1",
+    "http-server": "^0.11.1",
+    "mkdirp": "^0.5.1"
   },
   "devDependencies": {
     "eslint-config-airbnb-base": "^12.1.0",
